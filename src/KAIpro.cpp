@@ -105,11 +105,11 @@ void KAIpro :: driveDiff(int ch_speed , int ch_turn ){
   
 	 if(Left_m_Power<=0) {
       Left_m_Power=Left_m_Power*(-1);
-      digitalWrite(l_e_f_t_m_2, LOW);
-      analogWrite(l_e_f_t_m_1 , Left_m_Power);
+      digitalWrite(l_e_f_t_m_1, LOW);
+      analogWrite(l_e_f_t_m_2 , Left_m_Power);
     }else {
-      digitalWrite(l_e_f_t_m_1 , LOW);
-      analogWrite(l_e_f_t_m_2, Left_m_Power);
+      digitalWrite(l_e_f_t_m_2 , LOW);
+      analogWrite(l_e_f_t_m_1, Left_m_Power);
        }
 	   
 	     if(Right_m_Power<=0) {

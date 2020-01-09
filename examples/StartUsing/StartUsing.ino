@@ -3,10 +3,9 @@ KAIpro Control ;
 
 #define button_1 8
 #define button_2 7
-#define button_3 13
+#define button_3 12
 
-int bt_1 , bt_2 , bt_3;
-byte number = 0;
+int bt_1 , bt_2 , bt_3, number = 0;
 boolean value = 0;
 
 void setup() {
